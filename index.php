@@ -42,7 +42,7 @@
             <td>: <?php echo $riwat ?></td>
         </tr>
         <tr>
-            <td>hobby </td>
+            <td>Hobby </td>
             <td>:<?php  echo $hobby ?> </td>
         </tr>
     
