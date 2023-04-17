@@ -21,7 +21,7 @@
     
     <table align="center" cellpadding ="10px" width="600px">
         <tr>
-            <td>nama </td>
+            <td>Nama </td>
             <td>: <?php print $nama; ?> </td>
             <td rowspan="8"><img src="f.jpg" alt="" width="170px" height="200px"></td>
         </tr>
