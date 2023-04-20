@@ -14,7 +14,7 @@
  $jL = "laki-laki";
  $alamat = "Sidoarjo";
  $riwat = "universitas trunojoyo madura";
- $hobby = "jogging";
+ $hobby = "Jogging";
 ?>
 
 <h1 align="center">Biodata diri</h1>
