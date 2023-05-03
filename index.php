@@ -14,15 +14,15 @@
  $jL = "laki-laki";
  $alamat = "Sidoarjo";
  $riwat = "universitas trunojoyo madura";
- $hobby = "jogging";
+ $hobby = "Jogging";
 ?>
 
 <h1 align="center">Biodata diri</h1>
     
     <table align="center" cellpadding ="10px" width="600px">
         <tr>
-            <td>nama </td>
-            <td>: <?php print $nama; ?> </td>
+            <td>Nama </td>
+            <td>: <?php print $Nama; ?> </td>
             <td rowspan="8"><img src="f.jpg" alt="" width="170px" height="200px"></td>
         </tr>
         <tr>
@@ -42,7 +42,7 @@
             <td>: <?php echo $riwat ?></td>
         </tr>
         <tr>
-            <td>hobby </td>
+            <td>Hobby </td>
             <td>:<?php  echo $hobby ?> </td>
         </tr>
     
