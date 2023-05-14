@@ -1,3 +1,14 @@
+
+<?php 
+    session_start();
+      if(!isset($_SESSION['user'])) {
+        echo "<script>
+            alert('Login terlebih dahulu!');
+            document.location='login.php';
+            </script>";
+      }else{
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,3 +117,4 @@ if(isset($_POST['submit'])){
 
 </body>
 </html>
+<?php } ?>
