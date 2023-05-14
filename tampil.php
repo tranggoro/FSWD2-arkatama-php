@@ -1,3 +1,14 @@
+
+<?php 
+    session_start();
+      if(!isset($_SESSION['user'])) {
+        echo "<script>
+            alert('Login terlebih dahulu');
+            document.location='login.php';
+            </script>";
+      }else{
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +59,8 @@
                 </tr>
             <?php } ?>        
         </table>
+        <a href="logout.php"><button class="btn btn-dark mt-3">Logout</button></a>
     </div>
 </body>
 </html>
+<?php } ?>
