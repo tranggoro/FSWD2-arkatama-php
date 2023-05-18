@@ -1,5 +1,6 @@
 <?php
-function TriangleUpsideLeft($baris) {
+function TriangleUpsideLeft($baris)
+{
     for ($i = $baris; $i >= 1; $i--) {
         for ($j = $i; $j <= $baris; $j++) {
             echo "* ";

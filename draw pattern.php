@@ -1,5 +1,6 @@
 <?php
-function drawPattern($baris, $pattern) {
+function drawPattern($baris, $pattern)
+{
     switch ($pattern) {
         case "upside_left":
             for ($i = $baris; $i >= 1; $i--) {
@@ -19,7 +20,7 @@ function drawPattern($baris, $pattern) {
             break;
         case "upside_right":
             for ($i = 1; $i <= $baris; $i++) {
-                for ($j = 1; $j <= $baris-$i; $j++) {
+                for ($j = 1; $j <= $baris - $i; $j++) {
                     echo "&nbsp;&nbsp;"; // memberikan spasi
                 }
                 for ($k = 1; $k <= $i; $k++) {
@@ -30,7 +31,7 @@ function drawPattern($baris, $pattern) {
             break;
         case "downside_right":
             for ($i = $baris; $i >= 1; $i--) {
-                for ($j = 1; $j <= $baris-$i; $j++) {
+                for ($j = 1; $j <= $baris - $i; $j++) {
                     echo "&nbsp;&nbsp;"; // memberikan spasi
                 }
                 for ($k = 1; $k <= $i; $k++) {
@@ -45,5 +46,5 @@ function drawPattern($baris, $pattern) {
     }
 }
 
-$baris = 5; 
-drawPattern($baris, "upside_left"); 
+$baris = 5;
+drawPattern($baris, "upside_left");
